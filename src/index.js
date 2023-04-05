@@ -65,7 +65,7 @@ function createGalleryMarkup(images) {
         downloads,
       }) => {
         return `<div class="photo-card">
-        <div class="thumb> <a class="image" href="${webformatURL}"><img src="${largeImageURL}" alt="${tags}" loading="lazy"/> </a> </div>
+        <a class="image" href="${webformatURL}"><img src="${largeImageURL}" alt="${tags}" loading="lazy"/> </a>
   <div class="info">
     <p class="info-item">
       <b>Likes:</b>${likes}

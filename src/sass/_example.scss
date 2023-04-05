@@ -68,6 +68,10 @@ a {
 }
 
 .photo-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  max-width: 300px;
   border-radius: 5px;
   box-shadow: 0 0 8px #a7a7e7;
 }
